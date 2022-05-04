@@ -1,0 +1,9 @@
+www.google.com (CONNECT)
+httpbin.org/forms/post (POST)
+http://www.cad.zju.edu.cn/zhongwen.html (GET)
+
+www.facebook.com (CONNECT)
+www.youtube.com (CONNECT)
+
+Also you can try google something and open links. They all work perfectly fine.
+Same as watch videos, etc.

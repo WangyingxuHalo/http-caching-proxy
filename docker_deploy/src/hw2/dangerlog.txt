@@ -1,0 +1,6 @@
+1. Most of the wrong responses (Not normal)will be recorded by try catch and print to the log.
+2. We write a exception class so that most of the error will be throwed by that class.
+2. If we get the request which is not get or connect or post, then we will print them out, not processing it and respond user with 404 bad request.
+3. If the server address is empty, we will catch that and not process it.
+4. If the we cannot bind the socket, we will catch that.
+5. If we cannot listen the request successfully, we will catch that.

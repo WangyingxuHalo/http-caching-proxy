@@ -1,0 +1,64 @@
+53: "CONNECT www.google.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 17:58:13 2022
+53: Responding "HTTP/1.1 200 OK"
+
+16: "POST http://httpbin.org/post HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:02:48 2022
+16: Received "POST http://httpbin.org/post HTTP/1.1" fromhttpbin.org
+
+2: "GET http://www.cad.zju.edu.cn/templets/default/imgzd/more.gif HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:47 2022
+3: "GET http://s13.cnzz.com/stat.php?id=5791829&show=pic HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:48 2022
+4: "CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:48 2022
+4: Responding "HTTP/1.1 200 OK"
+5: "GET http://www.cad.zju.edu.cn/templets/default/imgzd/more1.gif HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:48 2022
+6: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:48 2022
+6: Responding "HTTP/1.1 200 OK"
+3: not in cache
+3: Requesting "GET http://s13.cnzz.com/stat.php?id=5791829&show=pic HTTP/1.1" from s13.cnzz.com
+5: not in cache
+5: Requesting "GET http://www.cad.zju.edu.cn/templets/default/imgzd/more1.gif HTTP/1.1" from www.cad.zju.edu.cn
+2: not in cache
+2: Requesting "GET http://www.cad.zju.edu.cn/templets/default/imgzd/more.gif HTTP/1.1" from www.cad.zju.edu.cn
+5: Received "HTTP/1.1 200 OK" from www.cad.zju.edu.cn
+2: Received "HTTP/1.1 200 OK" from www.cad.zju.edu.cn
+2: cached, expires at Fri Mar 25 14:30:03 2022
+2: Responding HTTP/1.1 200 OK
+5: cached, expires at Fri Mar 25 14:30:03 2022
+5: Responding HTTP/1.1 200 OK
+3: Received "HTTP/1.1 200 OK" from s13.cnzz.com
+3: cached, expires at Wed Feb 23 16:08:48 2022
+3: Responding HTTP/1.1 200 OK
+7: "GET http://z7.cnzz.com/stat.htm?id=5791829&r=&lg=zh-cn&ntime=1645633379&cnzz_eid=929699581-1645633379-&showp=2560x1440&p=http%3A%2F%2Fwww.cad.zju.edu.cn%2Fzhongwen.html&t=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%9B%BD%E5%AE%B6%E9%87%8D%E7%82%B9%E5%AE%9E%E9%AA%8C%E5%AE%A4&umuuid=17f27f8e340a-06b4d878bc4ff78-4c3e227d-384000-17f27f8e34294&h=1&rnd=589527935 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:38:50 2022
+7: not in cache
+7: Requesting "GET http://z7.cnzz.com/stat.htm?id=5791829&r=&lg=zh-cn&ntime=1645633379&cnzz_eid=929699581-1645633379-&showp=2560x1440&p=http%3A%2F%2Fwww.cad.zju.edu.cn%2Fzhongwen.html&t=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%9B%BE%E5%BD%A2%E5%AD%A6%E5%9B%BD%E5%AE%B6%E9%87%8D%E7%82%B9%E5%AE%9E%E9%AA%8C%E5%AE%A4&umuuid=17f27f8e340a-06b4d878bc4ff78-4c3e227d-384000-17f27f8e34294&h=1&rnd=589527935 HTTP/1.1" from z7.cnzz.com
+7: Received "HTTP/1.1 200 OK" from z7.cnzz.com
+7: not cacheable because cache control not specified
+7: Responding HTTP/1.1 200 OK
+
+111: "CONNECT facebook.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:47:15 2022
+111: Responding "HTTP/1.1 200 OK"
+
+112: "CONNECT www.youtube.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:14 2022
+112: Responding "HTTP/1.1 200 OK"
+113: "CONNECT i.ytimg.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:14 2022
+113: Responding "HTTP/1.1 200 OK"
+114: "CONNECT accounts.google.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:14 2022
+114: Responding "HTTP/1.1 200 OK"
+115: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:15 2022
+115: Responding "HTTP/1.1 200 OK"
+116: "CONNECT www.gstatic.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:15 2022
+116: Responding "HTTP/1.1 200 OK"
+117: "CONNECT www.google.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+117: Responding "HTTP/1.1 200 OK"
+118: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+118: Responding "HTTP/1.1 200 OK"
+119: "CONNECT safebrowsing.googleapis.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+119: Responding "HTTP/1.1 200 OK"
+120: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+120: Received "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" fromocsp.pki.goog
+120: Tunnel closed
+119: Tunnel closed
+121: "CONNECT static.doubleclick.net:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+121: Responding "HTTP/1.1 200 OK"
+122: "CONNECT jnn-pa.googleapis.com:443 HTTP/1.1" from 174.109.116.57 @ Wed Feb 23 19:48:16 2022
+122: Responding "HTTP/1.1 200 OK"
+
+
